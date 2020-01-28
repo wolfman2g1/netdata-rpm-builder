@@ -30,6 +30,19 @@ RUN set -ex \
                 rpm-build \
                 yum-utils \
                 zlib-devel \
+                libuv-devel\
+                gcc-c++\
+                autoconf-archive\
+                autogen\
+                openssl-devel\
+                Judy-devel\
+                lz4-devel\
+                nc\
+                json-c-devel\
+                freeipmi-devel\
+                snappy-devel\
+                protobuf-devel\
+                protobuf-c-devel\
         && yum clean all \
         && rm -rf /var/cache/yum/*
 
